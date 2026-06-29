@@ -1,4 +1,5 @@
-name: Update Formula
+name: Update muzak Formula
+run-name: Update muzak formula to ${{ github.event.client_payload.tag }}
 
 on:
   repository_dispatch:
